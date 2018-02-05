@@ -47,34 +47,34 @@ TABLE OF CONTENTS
 		$('.coming-soon-container .separator').removeClass('entrance fadeOut').addClass('fadeIn');
 		$('footer').removeClass('fadeOutDown').addClass('entrance fadeInUp');
 	}
-	function ShowCountdown(){
-		if($(window).width() < 768){
-			$('.days_dash').removeClass('fadeOutUpDiamond').addClass('fadeInUpDiamond');
-			$('.seconds_dash').removeClass('fadeOutUpDiamond').addClass('fadeInUpDiamond');
-			$('.hours_dash').removeClass('fadeOutUpDiamond').addClass('fadeInUpDiamond');
-			$('.minutes_dash').removeClass('fadeOutUpDiamond').addClass('fadeInUpDiamond');
-		}
-		else{
-			$('.days_dash').removeClass('fadeOutUpDiamond').addClass('fadeInDownDiamond');
-			$('.seconds_dash').removeClass('fadeOutDownDiamond').addClass('fadeInUpDiamond');
-			$('.hours_dash').removeClass('fadeOutLeftDiamond').addClass('fadeInLeftDiamond');
-			$('.minutes_dash').removeClass('fadeOutRightDiamond').addClass('fadeInRightDiamond');
-		}
-	}
-	function HideCountdown(){
-		if($(window).width() < 768){
-			$('.days_dash').removeClass('fadeInUpDiamond entrance').addClass('fadeOutUpDiamond');
-			$('.seconds_dash').removeClass('fadeInUpDiamond entrance').addClass('fadeOutUpDiamond');
-			$('.hours_dash').removeClass('fadeInUpDiamond entrance').addClass('fadeOutUpDiamond');
-			$('.minutes_dash').removeClass('fadeInUpDiamond entrance').addClass('fadeOutUpDiamond');	
-		}
-		else{
-			$('.days_dash').removeClass('fadeInDownDiamond entrance').addClass('fadeOutUpDiamond');
-			$('.seconds_dash').removeClass('fadeInUpDiamond entrance').addClass('fadeOutDownDiamond');
-			$('.hours_dash').removeClass('fadeInLeftDiamond entrance').addClass('fadeOutLeftDiamond');
-			$('.minutes_dash').removeClass('fadeInRightDiamond entrance').addClass('fadeOutRightDiamond');	
-		}
-	}
+	// function ShowCountdown(){
+	// 	if($(window).width() < 768){
+	// 		$('.days_dash').removeClass('fadeOutUpDiamond').addClass('fadeInUpDiamond');
+	// 		$('.seconds_dash').removeClass('fadeOutUpDiamond').addClass('fadeInUpDiamond');
+	// 		$('.hours_dash').removeClass('fadeOutUpDiamond').addClass('fadeInUpDiamond');
+	// 		$('.minutes_dash').removeClass('fadeOutUpDiamond').addClass('fadeInUpDiamond');
+	// 	}
+	// 	else{
+	// 		$('.days_dash').removeClass('fadeOutUpDiamond').addClass('fadeInDownDiamond');
+	// 		$('.seconds_dash').removeClass('fadeOutDownDiamond').addClass('fadeInUpDiamond');
+	// 		$('.hours_dash').removeClass('fadeOutLeftDiamond').addClass('fadeInLeftDiamond');
+	// 		$('.minutes_dash').removeClass('fadeOutRightDiamond').addClass('fadeInRightDiamond');
+	// 	}
+	// }
+	// function HideCountdown(){
+	// 	if($(window).width() < 768){
+	// 		$('.days_dash').removeClass('fadeInUpDiamond entrance').addClass('fadeOutUpDiamond');
+	// 		$('.seconds_dash').removeClass('fadeInUpDiamond entrance').addClass('fadeOutUpDiamond');
+	// 		$('.hours_dash').removeClass('fadeInUpDiamond entrance').addClass('fadeOutUpDiamond');
+	// 		$('.minutes_dash').removeClass('fadeInUpDiamond entrance').addClass('fadeOutUpDiamond');	
+	// 	}
+	// 	else{
+	// 		$('.days_dash').removeClass('fadeInDownDiamond entrance').addClass('fadeOutUpDiamond');
+	// 		$('.seconds_dash').removeClass('fadeInUpDiamond entrance').addClass('fadeOutDownDiamond');
+	// 		$('.hours_dash').removeClass('fadeInLeftDiamond entrance').addClass('fadeOutLeftDiamond');
+	// 		$('.minutes_dash').removeClass('fadeInRightDiamond entrance').addClass('fadeOutRightDiamond');	
+	// 	}
+	// }
 	function HideMenu(){
 		if($(window).width() < 992){
 			$('.menu').removeClass('fadeInDown').addClass('animated fadeOutUp');
@@ -308,13 +308,13 @@ TABLE OF CONTENTS
 			},800);
 		}
 	}
-	function ReorderingCountdown(){
-		//-- reordering the countdown div in extra small device
-		$('.days_dash').insertAfter('.weeks_dash');
-		$('.hours_dash').insertAfter('.days_dash');
-		$('.minutes_dash').insertAfter('.hours_dash');
-		$('.seconds_dash').insertAfter('.minutes_dash');
-	}
+	// function ReorderingCountdown(){
+	// 	//-- reordering the countdown div in extra small device
+	// 	$('.days_dash').insertAfter('.weeks_dash');
+	// 	$('.hours_dash').insertAfter('.days_dash');
+	// 	$('.minutes_dash').insertAfter('.hours_dash');
+	// 	$('.seconds_dash').insertAfter('.minutes_dash');
+	// }
 	
 	
 	/*-- ================================ --
@@ -364,9 +364,9 @@ TABLE OF CONTENTS
 		}
 		
 		//-- reordering countdown
-		if($(window).width() < 768){
-			ReorderingCountdown();
-		}
+		// if($(window).width() < 768){
+		// 	ReorderingCountdown();
+		// }
     });
 	//-- end window.resize function
 	
@@ -393,7 +393,7 @@ TABLE OF CONTENTS
     			animationIn: "fadeInLeft",          //css class for entrace animation
     			animationOut: "fadeOutLeft",        //css class for exit animation
     			speed: 3000,               		 //delay in milliseconds between two words
-    			words: ['monsy', 'creative', 'coming soon']  //Array of words, it may contain HTML values
+    			words: ['Creative', 'Credible', 'Capable', 'BXAIN']  //Array of words, it may contain HTML values
 			});	
 				
 			//-- clearing the timeout 
@@ -416,14 +416,14 @@ TABLE OF CONTENTS
 	/*-- ================================ --*/
 	$(document).ready(function(e) {	
 		//-- reordering countdown
-		if($(window).width() < 768){
-			ReorderingCountdown();
-		}
+		// if($(window).width() < 768){
+		// 	ReorderingCountdown();
+		// }
 		
 		//-- 5.1 activate static image background
 		if($(".bg-container-static").is(':visible')){
 			$(".bg-container-static").backstretch([
-				"http://placehold.it/2560x1600"
+				"img/bg.jpg"
 			],{
 				duration:6000,
 				fade:'normal'
@@ -433,8 +433,8 @@ TABLE OF CONTENTS
 		//-- 5.2 activate slideshow background
 		if($(".bg-container-slideshow").is(':visible')){
 			$(".bg-container-slideshow").backstretch([
-				"http://placehold.it/2560x1600",
-				"http://placehold.it/2560x1600"
+				"img/bg.jpg",
+				"img/bg.jpg"
 			],{
 				duration:6000,
 				fade:'normal'
@@ -460,8 +460,8 @@ TABLE OF CONTENTS
 			}
 			else{
 				$(".bg-container-youtube").backstretch([
-					"http://placehold.it/2560x1600",
-					"http://placehold.it/2560x1600"
+					"img/bg.jpg",
+					"img/bg.jpg"
 				],{
 					duration:6000,
 					fade:'normal'
@@ -477,17 +477,17 @@ TABLE OF CONTENTS
 		}
 		
 		//-- 5.6 activate countdown
-		$('.countdown-container').countDown({
-			targetDate: {
-				'day': 		9,
-				'month': 	3,
-				'year': 	2016,
-				'hour': 	0,
-				'min': 		0,
-				'sec': 		0
-			},
-			omitWeeks: true
-		});
+		// $('.countdown-container').countDown({
+		// 	targetDate: {
+		// 		'day': 		9,
+		// 		'month': 	3,
+		// 		'year': 	2016,
+		// 		'hour': 	0,
+		// 		'min': 		0,
+		// 		'sec': 		0
+		// 	},
+		// 	omitWeeks: true
+		// });
 		
 		//-- 5.7 init main content background animation
 		$.mainContentBg = new SVGLoader( document.getElementById('main-content'), { speedIn : 150 } );
@@ -513,7 +513,7 @@ TABLE OF CONTENTS
 				//-- show content
 				var showContent = setTimeout(function(){
 					//-- show countdown
-					ShowCountdown();
+					// ShowCountdown();
 					
 					//-- show close button
 					ShowCloseButton();
@@ -549,7 +549,7 @@ TABLE OF CONTENTS
 			HideContentControls();
 			
 			//-- hide countdown
-			HideCountdown();
+			// HideCountdown();
 			
 			//-- hide active content
 			if($.menu_name == "about"){
