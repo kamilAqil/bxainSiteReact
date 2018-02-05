@@ -11,7 +11,9 @@ export default class Homepage extends React.Component {
                 {/* <!-- end preloader --> */}
 
                 {/* <!-- 5.0 background container --> */}
-                <div className="bg-container-static"></div>
+                <div className="bg-container-static">
+                    
+                </div>
                 {/* <!-- end background container --> */}
 
                 {/* <!-- content container --> */}
@@ -20,7 +22,7 @@ export default class Homepage extends React.Component {
                 <nav className="menu animated entrance">
                         <ul>
                             {/* <!-- logo --> */}
-                        <li><img src="img/logo.png" alt="logo" className="logo" /></li>
+                        <li><img src="img/bxain.png" alt="logo" className="logo" /></li>
                             {/* <!-- end logo --> */}
                         <li className="menu-1 menu-out animated">
                                 <a href="#" className="menu-link" data-name="about" data-toggle="tooltip" data-placement="bottom" title="about us">
@@ -58,7 +60,7 @@ export default class Homepage extends React.Component {
 
                         {/* <!-- right side --> */}
                         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 right-side animated entrance">
-                                <h1 id="word-rotator">Monsy</h1>
+                                <h1 id="word-rotator">BXAIN</h1>
                             </div>
                             {/* <!-- end right side --> */}
 
@@ -84,39 +86,9 @@ export default class Homepage extends React.Component {
                     <div className="countdown col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div className="countdown-container centering-xy" id="lwt-countdown">
                                 {/* <!-- hours --> */}
-                            <div className="dash hours_dash entrance animated">
-                                    <div className="content">
-                                        <div className="digit">0</div><div className="digit">0</div>
-                                        <span className="dash_title">hours</span>
-                                    </div>
-                                </div>
-                                {/* <!-- end hours --> */}
-                            {/* <!-- days --> */}
-                            <div className="dash days_dash entrance animated">
-                                    <div className="content">
-                                        <div className="digit">0</div><div className="digit">0</div><div className="digit">0</div>
-                                        <span className="dash_title">days</span>
-                                    </div>
-                                </div>
-                                {/* <!-- end days --> */}
-                            {/* <!-- minutes --> */}
-                            <div className="dash minutes_dash entrance animated">
-                                    <div className="content">
-                                        <div className="digit">0</div><div className="digit">0</div>
-                                        {/* <span className="dash_title">mins</span> */}
-                                    </div>
-                                </div>
-                                {/* <!-- end minutes --> */}
-                            {/* <!-- seconds --> */}
-                            <div className="dash seconds_dash entrance animated">
-                                    <div className="content">
-                                        <div className="digit">0</div><div className="digit">0</div>
-                                        <span className="dash_title">secs</span>
-                                    </div>
-                                </div>
-                                {/* <!-- end seconds --> */}
-                        </div>
-                        </div>
+                                <img src="img/bxain.png" alt="img_thumb" />
+                            </div>
+                    </div>
                         {/* <!-- end countdown --> */}
 
                     {/* <!-- 10.0 about container --> */}
