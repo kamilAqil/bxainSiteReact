@@ -10,5 +10,5 @@ app.get('*', function (req, res) {
 });
 
 app.listen(process.env.PORT || 8080,()=>{
-    console.log('listening on port',process.env.PORT);
+    console.log('listening on port',8080);
 });
