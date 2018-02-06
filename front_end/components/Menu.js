@@ -1,9 +1,9 @@
 import React from 'react';
 
 const digitalMarketingIconStyle = {
-    height: '71%',
+    height: '50px',
     marginTop:'-16%',
-    width:'80%'
+    width:''
 }
 
 export default class Menu extends React.Component{
@@ -12,24 +12,24 @@ export default class Menu extends React.Component{
             < nav className = "menu animated entrance" >
                 <ul>
                     {/* <!-- logo --> */}
-                    <li><img src="img/bxain.png" alt="logo" className="logo" /></li>
+                    <li><img src="img/bxain.png" alt="logo" className="logo animated pulse" /></li>
                     {/* <!-- end logo --> */}
                     <li className="menu-1 menu-out animated">
                         <a href="#" className="menu-link" data-name="about" data-toggle="tooltip" data-placement="bottom" title="about us">
-=======
-                            <img src="img/svgForNojansSite/social-network.svg" id="digitalMarketingIcon" style={digitalMarketingIconStyle} alt=""/>
+
+                        <span aria-hidden="true" className="icon icon-info"></span>
                             
->>>>>>> 6e0cdf8061e7132748e0ada4346075ab210cdb2b
+
                         </a>
                     </li>
                     <li className="menu-2 menu-out animated">
                         <a href="#" className="menu-link" data-name="subscribe" data-toggle="tooltip" data-placement="bottom" title="subscribe">
-                            <img src="img/svgForNojansSite/video-camera.svg" id="visualProductionIcon" style={digitalMarketingIconStyle} alt="" />
+                            <span aria-hidden="true" className="icon icon-paper-plane"></span>
                         </a>
                     </li>
                     <li className="menu-3 menu-out animated">
                         <a href="#" className="menu-link" data-name="works" data-toggle="tooltip" data-placement="bottom" title="our works">
-                            <img src="img/svgForNojansSite/webDevelopment.svg" id="webDevelopmentIcon" style={digitalMarketingIconStyle} alt="" />
+                            <span aria-hidden="true" className="icon icon-briefcase"></span>
                         </a>
                     </li>
                     <li className="menu-4 menu-out animated">
