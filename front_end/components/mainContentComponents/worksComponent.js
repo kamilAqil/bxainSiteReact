@@ -8,7 +8,7 @@ export default class WorksComponent extends React.Component{
             <div className="works-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
                 <h2 className="animated entrance">WEB Development</h2>
                 <p className="works-desc col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 animated entrance">
-                Modern and creative website design gives you a website tailored to your particular field of business, which in results interact with your audience more efficiently with a professional website.
+                Modern and creative website design gives you a website tailored to your particular field of business, which helps you interact with your audience more efficiently.
                 </p>
 
                 {/* <!-- works gallery --> */}
@@ -50,8 +50,8 @@ export default class WorksComponent extends React.Component{
                                 </div>
                                 <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y" style={{textAlign:'right'}}>
                                     <ul>
-                                    <li><span className="listItemSpan">Understanig what you want</span></li>
-                                    <li><span className="listItemSpan">Understanding how do you plant to implement</span></li>
+                                    <li><span className="listItemSpan">Spelling what you want</span></li>
+                                    <li><span className="listItemSpan">how do you plant to implement</span></li>
                                   
                                     </ul>
                                 </div>
