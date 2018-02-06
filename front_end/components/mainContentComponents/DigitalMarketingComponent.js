@@ -1,11 +1,16 @@
 import React from 'react';
 
+const seoStyle = {
+    height: '50px',
+    width:'50px'
+}
+
 
 
 export default class DigitalMarketingComponent extends React.Component{
     render(){
         return(
-            <div className="testBorder about-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
+            <div className="about-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
                 <h2 className="animated entrance">Digital Marketing</h2>
                 <p className="about-desc col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-xs-12 animated entrance">Get your name out there by leveraging our experience with SEO, Social Media, Pay Per Click, and E-Mail Marketing</p>
 
@@ -23,7 +28,7 @@ export default class DigitalMarketingComponent extends React.Component{
                         {/* <!-- branding --> */}
                             <div className="service">
                                 <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <span aria-hidden="true" className="icon icon-present"></span>
+                                <img src="img/seo.png" data-name="seo" id="seoIcon" style={seoStyle}/>
                                     <span className="text">
                                         SEO
                                     </span>
@@ -32,7 +37,7 @@ export default class DigitalMarketingComponent extends React.Component{
                                     <ul>
                                     <li><span className="listItemSpan">Target your audience</span></li>
                                     <li><span className="listItemSpan">Focus your Content</span></li>
-                                    <li><span className="listItemSpan">Maximize onlin exposure</span></li>
+                                    <li><span className="listItemSpan">Maximize online exposure</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -64,6 +69,7 @@ export default class DigitalMarketingComponent extends React.Component{
                                 <ul>
                                     <li><span className="listItemSpan">Automate your customer contact</span></li>
                                     <li><span className="listItemSpan">Check open rates</span></li>
+                                    <li><span className="listItemSpan">Keep track of your active contacts</span></li>
                                     <li><span className="listItemSpan"></span></li>
                                 </ul>
                             </div>

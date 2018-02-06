@@ -765,7 +765,7 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
-	right:36%;
+	right:32%;
 	text-align:right;
 	visibility:hidden;
 }
@@ -820,7 +820,7 @@ label.contact-notif-error{
 	text-align:center;
 }
 .service .icon-container::after{
-	content:'//';
+	
 	font-family:'Dosis', sans-serif;
 	color:#111111;
 	font-size:18px;
@@ -972,7 +972,7 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
-	right:36%;
+	right:32%;
 	visibility:hidden;
 }
 .works-container h2{
