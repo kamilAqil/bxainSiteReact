@@ -761,7 +761,7 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
-	right:100px;
+	right:36%;
 	text-align:right;
 	visibility:hidden;
 }
@@ -885,7 +885,7 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
-	right:100px;
+	right:36%;
 	text-align:right;
 	visibility:hidden;
 }
@@ -968,7 +968,7 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
-	right:100px;
+	right:36%;
 	visibility:hidden;
 }
 .works-container h2{
@@ -1122,7 +1122,7 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
-	right:100px;
+	right:36%;
 	visibility:hidden;
 }
 .contact-container h2{
@@ -1595,3 +1595,20 @@ footer .social-media-link{
 		margin-bottom:40px;
 	}
 }
+
+/*-- ===================================================== --*
+	20- icons
+/*-- ===================================================== --*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:  url('fonts/icomoon.eot?1tlml7');
+	src:  url('fonts/icomoon.eot?1tlml7#iefix') format('embedded-opentype'),
+	  url('fonts/icomoon.ttf?1tlml7') format('truetype'),
+	  url('fonts/icomoon.woff?1tlml7') format('woff'),
+	  url('fonts/icomoon.svg?1tlml7#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+  

@@ -1,5 +1,6 @@
 import React from 'react';
 import WhiteSvgComponent from './WhiteSvgComponent';
+import WorksComponent from './mainContentComponents/worksComponent';
 export default class MainContent extends React.Component{
     render(){
         return (
@@ -13,50 +14,22 @@ export default class MainContent extends React.Component{
                     {/* <!-- end close main content button --> */}
 
                     {/* <!-- 9.0 countdown --> */}
-                    <div className="countdown col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div className="countdown-container centering-xy" id="lwt-countdown">
-                            {/* <!-- hours --> */}
-                            <div className="dash hours_dash entrance animated">
-                                <div className="content">
-                                    <div className="digit">0</div><div className="digit">0</div>
-                                    <span className="dash_title">hours</span>
-                                </div>
-                            </div>
-                            {/* <!-- end hours --> */}
-                            {/* <!-- days --> */}
-                            <div className="dash days_dash entrance animated">
-                                <div className="content">
-                                    <div className="digit">0</div><div className="digit">0</div><div className="digit">0</div>
-                                    <span className="dash_title">days</span>
-                                </div>
-                            </div>
-                            {/* <!-- end days --> */}
-                            {/* <!-- minutes --> */}
-                            <div className="dash minutes_dash entrance animated">
-                                <div className="content">
-                                    <div className="digit">0</div><div className="digit">0</div>
-                                    {/* <span className="dash_title">mins</span> */}
-                                </div>
-                            </div>
-                            {/* <!-- end minutes --> */}
-                            {/* <!-- seconds --> */}
-                            <div className="dash seconds_dash entrance animated">
-                                <div className="content">
-                                    <div className="digit">0</div><div className="digit">0</div>
-                                    <span className="dash_title">secs</span>
-                                </div>
-                            </div>
-                            {/* <!-- end seconds --> */}
-                        </div>
-                    </div>
+                    
                     {/* <!-- end countdown --> */}
 
                     {/* <!-- 10.0 about container --> */}
                     <div className="about-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
                         <h2 className="animated entrance">about us</h2>
                         <p className="about-desc col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-xs-12 animated entrance">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim veniam.
-                                </p>
+                            When we use social media, email, and when we shop online or at the store, we
+                            leave behind a trail of data. This is where BXAIN comes in. At BXAIN we
+                            access and harvest this data in conjunction with our self-generated leads to market
+                            to a potential customer in a hyper targeted manner. The team at BXAIN
+                            skillfully compiles consumer behavior data with social media accounts and contact
+                            information of individuals. We the overlay that data with unique device identifiers,
+                            cookies, and Geo targeting to create comprehensive profiles of millions of
+                            Americans, as well as residents of other countries.
+                        </p>
 
                         {/* <!-- 10.1 service --> */}
                         <div className="service-container col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 animated entrance">
@@ -102,7 +75,8 @@ export default class MainContent extends React.Component{
                                         <span className="text">design</span>
                                     </div>
                                     <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
-                                        <p>Lorem ipsum dolor sit semper amet dolor sit semper amet dolor sit semper amet</p>
+                                        <p>For most businesses, a website is a standout amongst the most vital speculations
+                                        you can make.</p>
                                     </div>
                                 </div>
                                 {/* <!-- end design --> */}
@@ -140,90 +114,7 @@ export default class MainContent extends React.Component{
                     {/* <!-- end subscribe container --> */}
 
                     {/* <!-- 12.0 works container --> */}
-                    <div className="works-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
-                        <h2 className="animated entrance">our works</h2>
-                        <p className="works-desc col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 animated entrance">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim veniam.
-                                </p>
-
-                        {/* <!-- works gallery --> */}
-                        <div className="works-gallery col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 animated entrance">
-                            {/* <!-- next work --> */}
-                            <a className="next-work" href="#">&gt;</a>
-                            {/* <!-- end next work --> */}
-
-                            {/* <!-- prev work --> */}
-                            <a className="prev-work" href="#">&lt;</a>
-                            {/* <!-- end prev work --> */}
-
-                            <div className="owl-carousel">
-                                {/* <!-- work 1 --> */}
-                                <div className="work">
-                                    <div className="text-container col-lg-5 col-md-5 col-sm-5 col-xs-6">
-                                        <span className="title">Hello Moura</span>
-                                        <span className="desc">web design</span>
-
-                                        <span className="button-container">
-                                            <a href="#"><span aria-hidden="true" className="icon icon-link"></span></a>
-                                            <a href="http://placehold.it/1200x800" className="popup-image"><span aria-hidden="true" className="icon icon-magnifier"></span></a>
-                                        </span>
-                                    </div>
-                                    <div className="img-wrapper col-lg-7 col-md-7 col-sm-7 col-xs-6">
-                                        <div className="img-container">
-                                            <div className="img-bg">
-                                                <img src="http://placehold.it/600x400" alt="img_thumb" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <!-- end work 1 --> */}
-
-                                {/* <!-- work 2 --> */}
-                                <div className="work">
-                                    <div className="text-container col-lg-5 col-md-5 col-sm-5 col-xs-6">
-                                        <span className="title">Hello Moura</span>
-                                        <span className="desc">web design</span>
-
-                                        <span className="button-container">
-                                            <a href="#"><span aria-hidden="true" className="icon icon-link"></span></a>
-                                            <a href="http://placehold.it/1200x800" className="popup-image"><span aria-hidden="true" className="icon icon-magnifier"></span></a>
-                                        </span>
-                                    </div>
-                                    <div className="img-wrapper col-lg-7 col-md-7 col-sm-7 col-xs-6">
-                                        <div className="img-container">
-                                            <div className="img-bg">
-                                                <img src="http://placehold.it/600x400" alt="img_thumb" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <!-- end work 2 --> */}
-
-                                {/* <!-- work 3 --> */}
-                                <div className="work">
-                                    <div className="text-container col-lg-5 col-md-5 col-sm-5 col-xs-6">
-                                        <span className="title">Hello Moura</span>
-                                        <span className="desc">web design</span>
-
-                                        <span className="button-container">
-                                            <a href="#"><span aria-hidden="true" className="icon icon-link"></span></a>
-                                            <a href="http://placehold.it/1200x800" className="popup-image"><span aria-hidden="true" className="icon icon-magnifier"></span></a>
-                                        </span>
-                                    </div>
-                                    <div className="img-wrapper col-lg-7 col-md-7 col-sm-7 col-xs-6">
-                                        <div className="img-container">
-                                            <div className="img-bg">
-                                                <img src="http://placehold.it/600x400" alt="img_thumb" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <!-- end work 3 --> */}
-                            </div>
-
-                        </div>
-                        {/* <!-- end works gallery --> */}
-                    </div>
+                         <WorksComponent />
                     {/* <!-- end works container --> */}
 
                     {/* <!-- 13.0 contact container --> */}
