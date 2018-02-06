@@ -1,5 +1,11 @@
 import React from 'react';
 
+const digitalMarketingIconStyle = {
+    height: '71%',
+    marginTop:'-16%',
+    width:'80%'
+}
+
 export default class Menu extends React.Component{
     render(){
         return (
@@ -10,18 +16,18 @@ export default class Menu extends React.Component{
                     {/* <!-- end logo --> */}
                     <li className="menu-1 menu-out animated">
                         <a href="#" className="menu-link" data-name="about" data-toggle="tooltip" data-placement="bottom" title="about us">
-                            {/* <span aria-hidden="true" className="icon icon-info"></span> */}
-                            <img src="" alt=""/>
+                            <img src="img/svgForNojansSite/social-network.svg" id="digitalMarketingIcon" style={digitalMarketingIconStyle} alt=""/>
+                            
                         </a>
                     </li>
                     <li className="menu-2 menu-out animated">
                         <a href="#" className="menu-link" data-name="subscribe" data-toggle="tooltip" data-placement="bottom" title="subscribe">
-                            <span aria-hidden="true" className="icon icon-paper-plane"></span>
+                            <img src="img/svgForNojansSite/video-camera.svg" id="visualProductionIcon" style={digitalMarketingIconStyle} alt="" />
                         </a>
                     </li>
                     <li className="menu-3 menu-out animated">
                         <a href="#" className="menu-link" data-name="works" data-toggle="tooltip" data-placement="bottom" title="our works">
-                            <span aria-hidden="true" className="icon icon-briefcase"></span>
+                            <img src="img/svgForNojansSite/webDevelopment.svg" id="webDevelopmentIcon" style={digitalMarketingIconStyle} alt="" />
                         </a>
                     </li>
                     <li className="menu-4 menu-out animated">

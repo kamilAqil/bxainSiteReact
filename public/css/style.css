@@ -477,7 +477,7 @@ label.contact-notif-error{
 	-o-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 }
-.menu li a:hover span.icon{
+.menu li a:hover{
 	color:#111111;
 }
 .menu li:first-child{
