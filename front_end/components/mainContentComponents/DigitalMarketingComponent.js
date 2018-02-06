@@ -1,13 +1,13 @@
 import React from 'react';
 
+
+
 export default class DigitalMarketingComponent extends React.Component{
     render(){
         return(
-            <div className="about-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
-                <h2 className="animated entrance">about us</h2>
-                <p className="about-desc col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-xs-12 animated entrance">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim veniam.
-                                </p>
+            <div className="testBorder about-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
+                <h2 className="animated entrance">Digital Marketing</h2>
+                <p className="about-desc col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-xs-12 animated entrance">Get your name out there by leveraging our experience with SEO, Social Media, Pay Per Click, and E-Mail Marketing</p>
 
                 {/* <!-- 10.1 service --> */}
                 <div className="service-container col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 animated entrance">
@@ -21,27 +21,35 @@ export default class DigitalMarketingComponent extends React.Component{
 
                     <div className="owl-carousel">
                         {/* <!-- branding --> */}
-                        <div className="service">
-                            <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <span aria-hidden="true" className="icon icon-present"></span>
-                                <span className="text">
-                                    branding
-                                                </span>
+                            <div className="service">
+                                <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <span aria-hidden="true" className="icon icon-present"></span>
+                                    <span className="text">
+                                        SEO
+                                    </span>
+                                </div>
+                                <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
+                                    <ul>
+                                    <li><span className="listItemSpan">Target your audience</span></li>
+                                    <li><span className="listItemSpan">Focus your Content</span></li>
+                                    <li><span className="listItemSpan">Maximize onlin exposure</span></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
-                                <p>Lorem ipsum dolor sit semper amet dolor sit semper amet dolor sit semper amet</p>
-                            </div>
-                        </div>
                         {/* <!-- end branding --> */}
 
                         {/* <!-- marketing --> */}
                         <div className="service">
                             <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                 <span aria-hidden="true" className="icon icon-anchor"></span>
-                                <span className="text">marketing</span>
+                                <span className="text">Social Media</span>
                             </div>
                             <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
-                                <p>Lorem ipsum dolor sit semper amet dolor sit semper amet dolor sit semper amet</p>
+                                <ul>
+                                    <li><span className="listItemSpan">Track return on ads</span></li>
+                                    <li><span className="listItemSpan">Create organic brand identity</span></li>
+                                    <li><span className="listItemSpan">Speak to your followers</span></li>
+                                </ul>
                             </div>
                         </div>
                         {/* <!-- end marketing --> */}
@@ -50,10 +58,14 @@ export default class DigitalMarketingComponent extends React.Component{
                         <div className="service">
                             <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                 <span aria-hidden="true" className="icon icon-pencil"></span>
-                                <span className="text">design</span>
+                                <span className="text">E-mail Marketing</span>
                             </div>
                             <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
-                                <p>Lorem ipsum dolor sit semper amet dolor sit semper amet dolor sit semper amet</p>
+                                <ul>
+                                    <li><span className="listItemSpan">Automate your customer contact</span></li>
+                                    <li><span className="listItemSpan">Check open rates</span></li>
+                                    <li><span className="listItemSpan"></span></li>
+                                </ul>
                             </div>
                         </div>
                         {/* <!-- end design --> */}
