@@ -20,7 +20,7 @@ export default class Homepage extends React.Component {
 
                 {/* <!-- content container --> */}
             <div className="content-container">
-<<<<<<< HEAD
+
                     {/* <!-- 6.0 menu & logo --> */}
                 <nav className="menu animated entrance">
                         <ul>
