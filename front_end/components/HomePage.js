@@ -1,4 +1,6 @@
 import React from 'react';
+import Menu from './Menu';
+import MainContent from './MainContent';
 
 export default class Homepage extends React.Component {
     render() {
@@ -18,6 +20,7 @@ export default class Homepage extends React.Component {
 
                 {/* <!-- content container --> */}
             <div className="content-container">
+<<<<<<< HEAD
                     {/* <!-- 6.0 menu & logo --> */}
                 <nav className="menu animated entrance">
                         <ul>
@@ -48,6 +51,8 @@ export default class Homepage extends React.Component {
                     </nav>
                     {/* <!-- end menu --> */}
 
+
+
                 {/* <!-- 7.0 coming soon container --> */}
                 <div className="container">
                         {/* <!-- container --> */}
@@ -71,6 +76,7 @@ export default class Homepage extends React.Component {
                     {/* <!-- end coming soon container --> */}
 
                 {/* <!-- main content --> */}
+
                 <div id="main-content" className="main-content">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
                             <path fill="white" fillOpacity="0.85" d="M80,58 80,58 80,60 80,60 Z" />
@@ -314,6 +320,7 @@ export default class Homepage extends React.Component {
                         {/* <!-- end main content controls --> */}
                 </div>
                     {/* <!-- end main content --> */}
+
 
                 {/* <!-- 15.0 footer --> */}
                 <footer className="animated entrance">
