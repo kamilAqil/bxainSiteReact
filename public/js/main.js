@@ -398,6 +398,8 @@ TABLE OF CONTENTS
     			speed: 3000,               		 //delay in milliseconds between two words
     			words: ['Creative', 'Credible', 'Capable', 'BXAIN']  //Array of words, it may contain HTML values
 			});	
+
+
 				
 			//-- clearing the timeout 
 			clearTimeout(this);
