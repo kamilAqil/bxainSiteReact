@@ -8,7 +8,7 @@ export default class ContactComponent extends React.Component{
                 <div className="detail col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <span aria-hidden="true" className="icon icon-call-in"></span>
                     <span className="desc">
-                        +62 356 3343
+                        +1 (949) 351-2911
                     </span>
                 </div>
                 {/* <!-- end phone --> */}
@@ -17,7 +17,7 @@ export default class ContactComponent extends React.Component{
                 <div className="detail col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <span aria-hidden="true" className="icon icon-envelope-open"></span>
                     <span className="desc">
-                        youremail@email.com
+                        contact@bxain.com
                                         </span>
                 </div>
                 {/* <!-- end email --> */}
@@ -26,7 +26,7 @@ export default class ContactComponent extends React.Component{
                 <div className="detail col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <span aria-hidden="true" className="icon icon-pointer"></span>
                     <span className="desc">
-                        245 Quigley Blvd, Ste K
+                        Irvine
                                         </span>
                 </div>
                 {/* <!-- end address --> */}
