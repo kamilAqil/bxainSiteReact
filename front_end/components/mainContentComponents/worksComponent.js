@@ -50,8 +50,8 @@ export default class WorksComponent extends React.Component{
                                 </div>
                                 <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y" style={{textAlign:'right'}}>
                                     <ul>
-                                    <li><span className="listItemSpan">Spelling what you want</span></li>
-                                    <li><span className="listItemSpan">how do you plant to implement</span></li>
+                                    <li><span className="listItemSpan">Understand your needs</span></li>
+                                    <li><span className="listItemSpan">Plan implementation</span></li>
                                   
                                     </ul>
                                 </div>
