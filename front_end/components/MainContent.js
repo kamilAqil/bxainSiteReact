@@ -21,68 +21,18 @@ export default class MainContent extends React.Component{
                     <div className="about-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
                         <h2 className="animated entrance">about us</h2>
                         <p className="about-desc col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-xs-12 animated entrance">
-                            When we use social media, email, and when we shop online or at the store, we
-                            leave behind a trail of data. This is where BXAIN comes in. At BXAIN we
-                            access and harvest this data in conjunction with our self-generated leads to market
-                            to a potential customer in a hyper targeted manner. The team at BXAIN
-                            skillfully compiles consumer behavior data with social media accounts and contact
-                            information of individuals. We the overlay that data with unique device identifiers,
-                            cookies, and Geo targeting to create comprehensive profiles of millions of
-                            Americans, as well as residents of other countries.
+                            When we use social media, email, and when we shop online or at the store, we leave
+                            behind a trail of data. This is where BXAIN comes in. At BXAIN we access and harvest this
+                            data in conjunction with our self-generated leads to market to a potential customer in a
+                            hyper targeted manner. The team at BXAIN skillfully compiles consumer behavior data with
+                            social media accounts and contact information of individuals. We the overlay that data with
+                            unique device identifiers, cookies, and Geo targeting to create comprehensive profiles of
+                            millions of Americans, as well as residents of other countries.
+                            It does not stop there our creative department goes to work on producing captivating digital ads and
+                            promotional materials which are served to potential customers using our proprietary targeting data.
                         </p>
 
-                        {/* <!-- 10.1 service --> */}
-                        <div className="service-container col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 animated entrance">
-                            {/* <!-- next service --> */}
-                            <a className="next-service" href="#">&gt;</a>
-                            {/* <!-- end next service --> */}
 
-                            {/* <!-- prev service --> */}
-                            <a className="prev-service" href="#">&lt;</a>
-                            {/* <!-- end prev service --> */}
-
-                            <div className="owl-carousel">
-                                {/* <!-- branding --> */}
-                                <div className="service">
-                                    <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                        <span aria-hidden="true" className="icon icon-present"></span>
-                                        <span className="text">
-                                            branding
-                                                </span>
-                                    </div>
-                                    <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
-                                        <p>Lorem ipsum dolor sit semper amet dolor sit semper amet dolor sit semper amet</p>
-                                    </div>
-                                </div>
-                                {/* <!-- end branding --> */}
-
-                                {/* <!-- marketing --> */}
-                                <div className="service">
-                                    <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                        <span aria-hidden="true" className="icon icon-anchor"></span>
-                                        <span className="text">marketing</span>
-                                    </div>
-                                    <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
-                                        <p>Lorem ipsum dolor sit semper amet dolor sit semper amet dolor sit semper amet</p>
-                                    </div>
-                                </div>
-                                {/* <!-- end marketing --> */}
-
-                                {/* <!-- design --> */}
-                                <div className="service">
-                                    <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                        <span aria-hidden="true" className="icon icon-pencil"></span>
-                                        <span className="text">design</span>
-                                    </div>
-                                    <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
-                                        <p>For most businesses, a website is a standout amongst the most vital speculations
-                                        you can make.</p>
-                                    </div>
-                                </div>
-                                {/* <!-- end design --> */}
-                            </div>
-                        </div>
-                        {/* <!-- end service --> */}
                     </div>
                     {/* <!-- end about container --> */}
 

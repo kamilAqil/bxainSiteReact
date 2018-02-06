@@ -419,6 +419,8 @@ TABLE OF CONTENTS
 		// if($(window).width() < 768){
 		// 	ReorderingCountdown();
 		// }
+
+		
 		
 		//-- 5.1 activate static image background
 		if($(".bg-container-static").is(':visible')){
