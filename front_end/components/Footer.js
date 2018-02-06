@@ -4,7 +4,7 @@ export default class Footer extends React.Component{
     render(){
         return(
             <footer className="animated entrance">
-                <p>copyright 2015 <span aria-hidden="true" className="icon icon-like"></span> by SimplePixel</p>
+                <p>copyright 2018 <span aria-hidden="true" className="icon icon-like"> BXAIN</span></p>
 
                 {/* <!-- social media link --> */}
                 <div className="social-media-link">

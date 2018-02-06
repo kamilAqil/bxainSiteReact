@@ -343,6 +343,10 @@ label.contact-notif-error{
 	bottom:-150%;
 }
 
+.testBorder{
+	border:1px solid black;
+}
+
 /*-- ================================================= --
 	5.0 PRELOADER
 /*-- ================================================= --*/
@@ -763,7 +767,11 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
+<<<<<<< HEAD
 	right:31%;
+=======
+	right:32%;
+>>>>>>> 77ad04658a09060e8a61a101f373311118570d13
 	text-align:right;
 	visibility:hidden;
 }
@@ -818,7 +826,7 @@ label.contact-notif-error{
 	text-align:center;
 }
 .service .icon-container::after{
-	content:'//';
+	
 	font-family:'Dosis', sans-serif;
 	color:#111111;
 	font-size:18px;
@@ -970,6 +978,10 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
+
+
+	right:32%;
+
 	visibility:hidden;
 }
 .works-container h2{
@@ -1118,6 +1130,11 @@ label.contact-notif-error{
 	-o-animation-delay:0.6s;
 }
 
+.videoIcon{
+	margin-left: 47%;
+	text-align: center;
+	font-size: 35px;
+}
 /*-- ========================================= --
 	15.0 CONTACT
 /*-- ========================================= --*/
