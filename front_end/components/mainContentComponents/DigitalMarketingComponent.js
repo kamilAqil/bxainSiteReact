@@ -62,7 +62,7 @@ export default class DigitalMarketingComponent extends React.Component{
                         {/* <!-- design --> */}
                         <div className="service">
                             <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <span aria-hidden="true" className="icon icon-pencil"></span>
+                                <img src="img/email.png" data-name="seo" id="seoIcon"/>
                                 <span className="text">E-mail Marketing</span>
                             </div>
                             <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">

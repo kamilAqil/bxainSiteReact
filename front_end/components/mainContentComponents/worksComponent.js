@@ -43,7 +43,7 @@ export default class WorksComponent extends React.Component{
                         </div> */}
                             <div className="service">
                                 <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <img src="img/seo.png" data-name="seo" id="seoIcon"/>
+                                <img src="img/planning.png" data-name="seo" id="seoIcon"/>
                                     <span className="text">
                                         PLANNING
                                     </span>
@@ -61,7 +61,7 @@ export default class WorksComponent extends React.Component{
                         {/* <!-- work 2 --> */}
                         <div className="service">
                             <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <img src="img/seo.png" data-name="seo" id="seoIcon"/>
+                            <img src="img/layout.png" data-name="seo" id="seoIcon"/>
                                 <span className="text">
                                     LAYOUT DESIGN
                                 </span>
@@ -79,62 +79,49 @@ export default class WorksComponent extends React.Component{
                         {/* <!-- work 3 --> */}
                         <div className="service">
                             <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <img src="img/seo.png" data-name="seo" id="seoIcon"/>
+                            <img src="img/development.png" data-name="seo" id="seoIcon"/>
                                 <span className="text">
                                     DEVELOPMENT
                                 </span>
                             </div>
                             <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y" style={{textAlign:'right'}}>
                                 <ul>
-                                <li><span className="listItemSpan">Target your audience</span></li>
-                                <li><span className="listItemSpan">Focus your Content</span></li>
-                                <li><span className="listItemSpan">Maximize online exposure</span></li>
+                                <li><span className="listItemSpan">Content Managment systems</span></li>
+                                <li><span className="listItemSpan">Efficient programing</span></li>
+                                <li><span className="listItemSpan">Modern and clean code</span></li>
                                 </ul>
                             </div>
                         </div>
                         {/* <!-- end work 3 --> */}
                         <div className="service">
                             <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <img src="img/seo.png" data-name="seo" id="seoIcon"/>
+                            <img src="img/security_test.png" data-name="seo" id="seoIcon"/>
                                 <span className="text">
                                     TESTING
                                 </span>
                             </div>
                             <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y" style={{textAlign:'right'}}>
                                 <ul>
-                                <li><span className="listItemSpan">Target your audience</span></li>
-                                <li><span className="listItemSpan">Focus your Content</span></li>
-                                <li><span className="listItemSpan">Maximize online exposure</span></li>
+                                <li><span className="listItemSpan">Security Testing</span></li>
+                                <li><span className="listItemSpan">Functionality Testing</span></li>
+                                <li><span className="listItemSpan">Performance Testing</span></li>
                                 </ul>
                             </div>
                         </div>
+
                         <div className="service">
                             <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <img src="img/seo.png" data-name="seo" id="seoIcon"/>
-                                <span className="text">
-                                    LAUNCH
-                                </span>
-                            </div>
-                            <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y" style={{textAlign:'right'}}>
-                                <ul>
-                                <li><span className="listItemSpan">Target your audience</span></li>
-                                <li><span className="listItemSpan">Focus your Content</span></li>
-                                <li><span className="listItemSpan">Maximize online exposure</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="service">
-                            <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <img src="img/seo.png" data-name="seo" id="seoIcon"/>
+                            <img src="img/settings.png" data-name="seo" id="seoIcon"/>
                                 <span className="text">
                                     SUPPORT
                                 </span>
                             </div>
                             <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y" style={{textAlign:'right'}}>
                                 <ul>
-                                <li><span className="listItemSpan">Target your audience</span></li>
-                                <li><span className="listItemSpan">Focus your Content</span></li>
-                                <li><span className="listItemSpan">Maximize online exposure</span></li>
+                                <li><span className="listItemSpan">Fix Errors</span></li>
+                                <li><span className="listItemSpan">Backups</span></li>
+                                <li><span className="listItemSpan">Monitor</span></li>
+                                <li><span className="listItemSpan">Update</span></li>
                                 </ul>
                             </div>
                         </div>
