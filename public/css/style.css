@@ -1119,6 +1119,11 @@ label.contact-notif-error{
 	-o-animation-delay:0.6s;
 }
 
+.videoIcon{
+	margin-left: 47%;
+	text-align: center;
+	font-size: 35px;
+}
 /*-- ========================================= --
 	15.0 CONTACT
 /*-- ========================================= --*/

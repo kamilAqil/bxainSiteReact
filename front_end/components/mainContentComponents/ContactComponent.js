@@ -9,7 +9,7 @@ export default class ContactComponent extends React.Component{
                     <span aria-hidden="true" className="icon icon-call-in"></span>
                     <span className="desc">
                         +62 356 3343
-                                        </span>
+                    </span>
                 </div>
                 {/* <!-- end phone --> */}
 

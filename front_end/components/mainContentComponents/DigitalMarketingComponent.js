@@ -23,7 +23,7 @@ export default class DigitalMarketingComponent extends React.Component{
                         {/* <!-- branding --> */}
                             <div className="service">
                                 <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <span aria-hidden="true" className="icon icon-present"></span>
+                                    <span aria-hidden="true" className="icon icon-target"></span>
                                     <span className="text">
                                         SEO
                                     </span>
@@ -41,7 +41,7 @@ export default class DigitalMarketingComponent extends React.Component{
                         {/* <!-- marketing --> */}
                         <div className="service">
                             <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <span aria-hidden="true" className="icon icon-anchor"></span>
+                                <span aria-hidden="true" className="icon icon-bubble"></span>
                                 <span className="text">Social Media</span>
                             </div>
                             <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
@@ -62,9 +62,9 @@ export default class DigitalMarketingComponent extends React.Component{
                             </div>
                             <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
                                 <ul>
-                                    <li><span className="listItemSpan">Automate your customer contact</span></li>
-                                    <li><span className="listItemSpan">Check open rates</span></li>
-                                    <li><span className="listItemSpan"></span></li>
+                                    <li><span className="listItemSpan">Generate More Sales</span></li>
+                                    <li><span className="listItemSpan">Reduce Marketing Cost</span></li>
+                                    <li><span className="listItemSpan">Improved Conversion Rates</span></li>
                                 </ul>
                             </div>
                         </div>
