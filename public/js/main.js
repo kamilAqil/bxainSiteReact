@@ -428,7 +428,7 @@ TABLE OF CONTENTS
 		//-- 5.1 activate static image background
 		if($(".bg-container-static").is(':visible')){
 			$(".bg-container-static").backstretch([
-				"img/bg.jpg"
+				"img/bg.png"
 			],{
 				duration:6000,
 				fade:'normal'
@@ -438,8 +438,8 @@ TABLE OF CONTENTS
 		//-- 5.2 activate slideshow background
 		if($(".bg-container-slideshow").is(':visible')){
 			$(".bg-container-slideshow").backstretch([
-				"img/bg.jpg",
-				"img/bg.jpg"
+				"img/bg.png",
+				"img/bg.png"
 			],{
 				duration:6000,
 				fade:'normal'
@@ -465,8 +465,8 @@ TABLE OF CONTENTS
 			}
 			else{
 				$(".bg-container-youtube").backstretch([
-					"img/bg.jpg",
-					"img/bg.jpg"
+					"img/bg.png",
+					"img/bg.png"
 				],{
 					duration:6000,
 					fade:'normal'
