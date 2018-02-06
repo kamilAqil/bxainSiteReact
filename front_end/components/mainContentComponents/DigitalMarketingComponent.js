@@ -28,11 +28,7 @@ export default class DigitalMarketingComponent extends React.Component{
                         {/* <!-- branding --> */}
                             <div className="service">
                                 <div className="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-<<<<<<< HEAD
                                 <img src="img/seo.png" data-name="seo" id="seoIcon" style={seoStyle}/>
-=======
-                                    <span aria-hidden="true" className="icon icon-target"></span>
->>>>>>> 0619da10a6cfdeb7dad94688172b5fe88423f8d4
                                     <span className="text">
                                         SEO
                                     </span>
@@ -71,16 +67,9 @@ export default class DigitalMarketingComponent extends React.Component{
                             </div>
                             <div className="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
                                 <ul>
-<<<<<<< HEAD
-                                    <li><span className="listItemSpan">Automate your customer contact</span></li>
-                                    <li><span className="listItemSpan">Check open rates</span></li>
-                                    <li><span className="listItemSpan">Keep track of your active contacts</span></li>
-                                    <li><span className="listItemSpan"></span></li>
-=======
                                     <li><span className="listItemSpan">Generate More Sales</span></li>
                                     <li><span className="listItemSpan">Reduce Marketing Cost</span></li>
                                     <li><span className="listItemSpan">Improved Conversion Rates</span></li>
->>>>>>> 0619da10a6cfdeb7dad94688172b5fe88423f8d4
                                 </ul>
                             </div>
                         </div>
