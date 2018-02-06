@@ -15,18 +15,18 @@ export default class Menu extends React.Component{
                     <li><img src="img/bxain.png" alt="logo" className="logo animated infinite pulse" /></li>
                     {/* <!-- end logo --> */}
                     <li className="menu-1 menu-out animated">
-                        <a href="#" className="menu-link" data-name="about" data-toggle="tooltip" data-placement="bottom" title="about us">
-                            <img src="img/svgForNojansSite/social-network.svg" id="digitalMarketingIcon" style={digitalMarketingIconStyle} alt=""/>
+                        <a href="#" className="menu-link" data-name="about" data-toggle="tooltip" data-placement="bottom" title="Digital Marketing">
+                            <img src="img/svgForNojansSite/social-network.svg" data-name="digitalMarketing" id="digitalMarketingIcon" style={digitalMarketingIconStyle} alt=""/>
                             
                         </a>
                     </li>
                     <li className="menu-2 menu-out animated">
-                        <a href="#" className="menu-link" data-name="subscribe" data-toggle="tooltip" data-placement="bottom" title="subscribe">
+                        <a href="#" className="menu-link" data-name="subscribe" data-toggle="tooltip" data-placement="bottom" title="Video Production">
                             <img src="img/svgForNojansSite/video-camera.svg" id="visualProductionIcon" style={digitalMarketingIconStyle} alt="" />
                         </a>
                     </li>
                     <li className="menu-3 menu-out animated">
-                        <a href="#" className="menu-link" data-name="works" data-toggle="tooltip" data-placement="bottom" title="our works">
+                        <a href="#" className="menu-link" data-name="works" data-toggle="tooltip" data-placement="bottom" title="Web Development">
                             <img src="img/svgForNojansSite/webDevelopment.svg" id="webDevelopmentIcon" style={digitalMarketingIconStyle} alt="" />
                         </a>
                     </li>
