@@ -269,13 +269,13 @@ TABLE OF CONTENTS
 		if($(window).width() < 1024){
 			$('.subscribe-container').css('display','block');
 		}
-		$('.subscribe-container h2, p.subscribe-desc, .subscribe-form-container').removeClass('fadeOutUp').addClass('fadeInUp');
+		$('.subscribe-container h2, p.subscribe-desc, .subscribe-form-container, .videoIcon').removeClass('fadeOutUp').addClass('fadeInUp');
 		$('.subscribe-container').css({
 			zIndex:5
 		});
 	}
 	function HideSubscribe(){
-		$('.subscribe-container h2, p.subscribe-desc, .subscribe-form-container').removeClass('entrance fadeInUp').addClass('fadeOutUp');
+		$('.subscribe-container h2, p.subscribe-desc, .subscribe-form-container, .videoIcon').removeClass('entrance fadeInUp').addClass('fadeOutUp');
 		$('.subscribe-container').css({
 			zIndex:4
 		});
