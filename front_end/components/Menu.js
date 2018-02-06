@@ -10,7 +10,8 @@ export default class Menu extends React.Component{
                     {/* <!-- end logo --> */}
                     <li className="menu-1 menu-out animated">
                         <a href="#" className="menu-link" data-name="about" data-toggle="tooltip" data-placement="bottom" title="about us">
-                            <span aria-hidden="true" className="icon icon-info"></span>
+                            {/* <span aria-hidden="true" className="icon icon-info"></span> */}
+                            <img src="" alt=""/>
                         </a>
                     </li>
                     <li className="menu-2 menu-out animated">
