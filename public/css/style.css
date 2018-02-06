@@ -343,6 +343,10 @@ label.contact-notif-error{
 	bottom:-150%;
 }
 
+.testBorder{
+	border:1px solid black;
+}
+
 /*-- ================================================= --
 	5.0 PRELOADER
 /*-- ================================================= --*/
@@ -430,7 +434,7 @@ label.contact-notif-error{
 }
 .menu li img.logo{
 	display:inline-block;
-	height:30px;
+	height:50px;
 	width:auto;
 }
 .menu li a{
@@ -477,7 +481,7 @@ label.contact-notif-error{
 	-o-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 }
-.menu li a:hover span.icon{
+.menu li a:hover{
 	color:#111111;
 }
 .menu li:first-child{
@@ -561,6 +565,8 @@ label.contact-notif-error{
 	position:absolute;
 	top:0px;
 	right:0px;
+	width: 100%;
+	height: 100%;
 	z-index:1;
 }
 .main-content .close-content-container{
@@ -759,7 +765,7 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
-	right:100px;
+	right:32%;
 	text-align:right;
 	visibility:hidden;
 }
@@ -814,7 +820,7 @@ label.contact-notif-error{
 	text-align:center;
 }
 .service .icon-container::after{
-	content:'//';
+	
 	font-family:'Dosis', sans-serif;
 	color:#111111;
 	font-size:18px;
@@ -883,7 +889,7 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
-	right:100px;
+	right:36%;
 	text-align:right;
 	visibility:hidden;
 }
@@ -966,7 +972,7 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
-	right:100px;
+	right:32%;
 	visibility:hidden;
 }
 .works-container h2{
@@ -1113,6 +1119,11 @@ label.contact-notif-error{
 	-o-animation-delay:0.6s;
 }
 
+.videoIcon{
+	margin-left: 47%;
+	text-align: center;
+	font-size: 35px;
+}
 /*-- ========================================= --
 	15.0 CONTACT
 /*-- ========================================= --*/
@@ -1120,7 +1131,7 @@ label.contact-notif-error{
 	position:absolute;
 	z-index:4;
 	padding:0px;
-	right:100px;
+	right:36%;
 	visibility:hidden;
 }
 .contact-container h2{

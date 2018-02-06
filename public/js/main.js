@@ -91,7 +91,7 @@ TABLE OF CONTENTS
 					$('.menu li[class*="menu"]').each(function(index, element) {
         			    $(this).removeClass('menu-out fadeOutLeft');
 						$(this).css({
-							visibility:'hidden'
+							visibility:'hidden',
 						});
         			});
 					
@@ -170,7 +170,8 @@ TABLE OF CONTENTS
 							$('.menu li[class*="menu"]').each(function(index, element) {
         					    $(this).removeClass('menu-in fadeInLeft');
 								$(this).css({
-									visibility:'visible'
+									visibility:'visible',
+									
 								});
         					});
 						
@@ -217,10 +218,12 @@ TABLE OF CONTENTS
 		
 		if($(window).width() < 1024){
 			$('.about-container').css('display','block');
+			
 		}
 		$('.about-container h2, p.about-desc, .service-container').removeClass('fadeOutUp').addClass('fadeInUp');
 		$('.about-container').css({
-			zIndex:5
+			zIndex:5,
+			border:'1px solid black'
 		});
 	}
 	function HideAboutUs(){
@@ -266,13 +269,13 @@ TABLE OF CONTENTS
 		if($(window).width() < 1024){
 			$('.subscribe-container').css('display','block');
 		}
-		$('.subscribe-container h2, p.subscribe-desc, .subscribe-form-container').removeClass('fadeOutUp').addClass('fadeInUp');
+		$('.subscribe-container h2, p.subscribe-desc, .subscribe-form-container, .videoIcon').removeClass('fadeOutUp').addClass('fadeInUp');
 		$('.subscribe-container').css({
 			zIndex:5
 		});
 	}
 	function HideSubscribe(){
-		$('.subscribe-container h2, p.subscribe-desc, .subscribe-form-container').removeClass('entrance fadeInUp').addClass('fadeOutUp');
+		$('.subscribe-container h2, p.subscribe-desc, .subscribe-form-container, .videoIcon').removeClass('entrance fadeInUp').addClass('fadeOutUp');
 		$('.subscribe-container').css({
 			zIndex:4
 		});
@@ -395,6 +398,8 @@ TABLE OF CONTENTS
     			speed: 3000,               		 //delay in milliseconds between two words
     			words: ['Creative', 'Credible', 'Capable', 'BXAIN']  //Array of words, it may contain HTML values
 			});	
+
+
 				
 			//-- clearing the timeout 
 			clearTimeout(this);

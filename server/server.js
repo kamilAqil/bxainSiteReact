@@ -10,6 +10,8 @@ app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, '../', 'public', 'index.html'));
 });
 
-app.listen(PORT, ()=>{
-    console.log('listening on port',PORT);
+
+app.listen(process.env.PORT || 8080,()=>{
+    console.log('listening on port',8080);
+
 });
