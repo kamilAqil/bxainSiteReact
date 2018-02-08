@@ -12,7 +12,7 @@ export default class Menu extends React.Component{
             < nav className = "menu animated entrance" >
                 <ul>
                     {/* <!-- logo --> */}
-                    <li><img src="img/bxain.png" alt="logo" className="logo animated infinite pulse" /></li>
+                    <li><img src="img/BXAIN.png" alt="logo" className="logo animated infinite pulse" /></li>
                     {/* <!-- end logo --> */}
                     <li className="menu-1 menu-out animated">
                         <a href="#" className="menu-link" data-name="about" data-toggle="tooltip" data-placement="bottom" title="Digital Marketing">
