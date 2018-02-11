@@ -1,2 +1,3 @@
 [] - add scss to project 
 [] - server side render project
+[] - configure react router for all routes 
